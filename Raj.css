@@ -24,3 +24,18 @@ body {
 	padding: 5px 15px;
 }
 
+.container {
+	perspective: 1000px;
+	margin-bottom: 30px;
+}
+
+.seat {
+	
+    background-color: rgb(102, 102, 102);
+	height: 12px;
+	width: 15px;
+	margin: 3px;
+	
+
+}
+
