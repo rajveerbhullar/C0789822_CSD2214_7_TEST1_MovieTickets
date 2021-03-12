@@ -28,3 +28,9 @@ movieSelect.addEventListener("change", (e) => {
 	updateSelectedCount();
 });
 
+container.addEventListener("click", function(e) {
+	if (
+		e.target.classList.contains("seat") &&
+		!e.target.classList.contains("occupied")
+	)
+});
