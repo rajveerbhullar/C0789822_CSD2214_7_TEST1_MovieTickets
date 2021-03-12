@@ -5,113 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel ="stylesheet" href = "Raj.css">
-    <script src = "bhullar.js"> </script>
 </head>
 <body>
-    <p>
-        <h1>MOVIE</h1>
-        <label for="Movie">Pick a movie:</label>
-        <select id="MOVIE" name="mname" required autofocus>
-          <option></option>
-          <option value="M1">Happy $40</option>
-          <option value="M2">Dream $20</option>
-          <option value="M3">Life $30</option>
+    <h1>MOVIE</h1>
+    <div class="movie-container">
+        <label for="">Pick a movie</label>
+        <select id="movie">
+            <option value="10"> Happy ($40)</option>
+            <option value="12"> Dream $20)</option>
+            <option value="9"> Life ($30)</option>
+            <option value="8"> Love (8$)</option>
         </select>
-      </p>
-
-      <div class="raj">
-  
-        <div class="cinema-seats ">
-          <div class="cinema-row row-1">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-          <div class="cinema-row row-2">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-      
-          <div class="cinema-row row-3">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-          <div class="cinema-row row-4">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-      
-          <div class="cinema-row row-5">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-      
-          <div class="cinema-row row-6">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-          <div class="cinema-row row-7">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-          <div class="cinema-row row-8">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-          <div class="cinema-row row-9">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div><br>
-          <div class="cinema-row row-10">
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-            <div class="seat"></div>&nbsp;
-          </div>
-      
-         
+    </div>
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
         </div>
-      
-      
-      
-        
-      </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+    </div>
+
+      <p class="text"> Number of seats selected:<span id="count"> 0 </span><br> Total price $ <span id="total">0</span></p>
+
+      <a id="xyz" href="simrn.html">BUY SEATS</a> <br>
+      <script src="bhullar.js"></script>
 </body>
 </html>
