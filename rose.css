@@ -16,15 +16,30 @@ body {
     margin: 0 -15px;
   }
   .col2 {
-    -ms-flex: 50%; /* IE10 */
+    -ms-flex: 50%; 
     flex: 50%;
   }
   
   .col1 {
-    -ms-flex: 75%; /* IE10 */
+    -ms-flex: 75%; 
     flex: 75%;
   }
   .col2,
   .col1 {
     padding: 0 16px;
+  }
+
+  .container {
+    background-color: #e9dede;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(77, 74, 74);
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid rgb(221, 210, 210);
+    border-radius: 3px;
   }
